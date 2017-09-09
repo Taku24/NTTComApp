@@ -10,9 +10,13 @@ import UIKit
 
 class SyncViewController: UIViewController {
     
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        indicator.startAnimating()
     }
     
     override func didReceiveMemoryWarning() {
