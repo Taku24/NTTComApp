@@ -12,6 +12,7 @@
 		CC4FB3F81F63ABC1004CB597 /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4FB3F51F63A543004CB597 /* SkyWay.framework */; };
 		CC4FB3F91F63ABC5004CB597 /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4FB3F51F63A543004CB597 /* SkyWay.framework */; };
 		CC4FB3FA1F63ABC5004CB597 /* SkyWay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC4FB3F51F63A543004CB597 /* SkyWay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CC4FB3FD1F63AFB1004CB597 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CC4FB3FC1F63AFB1004CB597 /* images */; };
 		CC7CA16D1F6390C3008005ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA16C1F6390C3008005ED /* AppDelegate.swift */; };
 		CC7CA16F1F6390C3008005ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA16E1F6390C3008005ED /* MainViewController.swift */; };
 		CC7CA1721F6390C3008005ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7CA1701F6390C3008005ED /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		CC4FB3F01F63A434004CB597 /* SyncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncViewController.swift; sourceTree = "<group>"; };
 		CC4FB3F51F63A543004CB597 /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkyWay.framework; sourceTree = "<group>"; };
 		CC4FB3F71F63A570004CB597 /* NTTComAppBrigingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTTComAppBrigingHeader.h; sourceTree = "<group>"; };
+		CC4FB3FC1F63AFB1004CB597 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		CC7CA1691F6390C3008005ED /* NTTComApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTTComApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7CA16C1F6390C3008005ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7CA16E1F6390C3008005ED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		CC7CA16B1F6390C3008005ED /* NTTComApp */ = {
 			isa = PBXGroup;
 			children = (
+				CC4FB3FC1F63AFB1004CB597 /* images */,
 				CC7CA16C1F6390C3008005ED /* AppDelegate.swift */,
 				CC7CA16E1F6390C3008005ED /* MainViewController.swift */,
 				CC7CA1701F6390C3008005ED /* Main.storyboard */,
@@ -273,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4FB3FD1F63AFB1004CB597 /* images in Resources */,
 				CC7CA1771F6390C3008005ED /* LaunchScreen.storyboard in Resources */,
 				CC7CA1741F6390C3008005ED /* Assets.xcassets in Resources */,
 				CC7CA1721F6390C3008005ED /* Main.storyboard in Resources */,
