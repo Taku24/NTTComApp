@@ -13,3 +13,4 @@
 #endif /* NTTComAppBrigingHeader_h */
 
 #import <SkyWay/SKWPeer.h>
+#import <SkyWay/SKWVideo.h>
