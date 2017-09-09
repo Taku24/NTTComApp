@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC4FB3EF1F63A3E6004CB597 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4FB3EE1F63A3E6004CB597 /* InitialViewController.swift */; };
+		CC4FB3F11F63A434004CB597 /* SyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4FB3F01F63A434004CB597 /* SyncViewController.swift */; };
 		CC7CA16D1F6390C3008005ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA16C1F6390C3008005ED /* AppDelegate.swift */; };
-		CC7CA16F1F6390C3008005ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA16E1F6390C3008005ED /* ViewController.swift */; };
+		CC7CA16F1F6390C3008005ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA16E1F6390C3008005ED /* MainViewController.swift */; };
 		CC7CA1721F6390C3008005ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7CA1701F6390C3008005ED /* Main.storyboard */; };
 		CC7CA1741F6390C3008005ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7CA1731F6390C3008005ED /* Assets.xcassets */; };
 		CC7CA1771F6390C3008005ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7CA1751F6390C3008005ED /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC4FB3EE1F63A3E6004CB597 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		CC4FB3F01F63A434004CB597 /* SyncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncViewController.swift; sourceTree = "<group>"; };
 		CC7CA1691F6390C3008005ED /* NTTComApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTTComApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7CA16C1F6390C3008005ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC7CA16E1F6390C3008005ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC7CA16E1F6390C3008005ED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CC7CA1711F6390C3008005ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC7CA1731F6390C3008005ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7CA1761F6390C3008005ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				CC7CA16C1F6390C3008005ED /* AppDelegate.swift */,
-				CC7CA16E1F6390C3008005ED /* ViewController.swift */,
+				CC7CA16E1F6390C3008005ED /* MainViewController.swift */,
 				CC7CA1701F6390C3008005ED /* Main.storyboard */,
 				CC7CA1731F6390C3008005ED /* Assets.xcassets */,
 				CC7CA1751F6390C3008005ED /* LaunchScreen.storyboard */,
 				CC7CA1781F6390C3008005ED /* Info.plist */,
+				CC4FB3EE1F63A3E6004CB597 /* InitialViewController.swift */,
+				CC4FB3F01F63A434004CB597 /* SyncViewController.swift */,
 			);
 			path = NTTComApp;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7CA16F1F6390C3008005ED /* ViewController.swift in Sources */,
+				CC4FB3EF1F63A3E6004CB597 /* InitialViewController.swift in Sources */,
+				CC7CA16F1F6390C3008005ED /* MainViewController.swift in Sources */,
 				CC7CA16D1F6390C3008005ED /* AppDelegate.swift in Sources */,
+				CC4FB3F11F63A434004CB597 /* SyncViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +524,7 @@
 				CC7CA1931F6390C3008005ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC7CA1941F6390C3008005ED /* Build configuration list for PBXNativeTarget "NTTComAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				CC7CA1961F6390C3008005ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC7CA1971F6390C3008005ED /* Build configuration list for PBXNativeTarget "NTTComAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				CC7CA1991F6390C3008005ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
