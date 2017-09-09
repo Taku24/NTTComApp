@@ -28,7 +28,6 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         setUpViewoView()
         setUpSkyway()
-        getPeerList()
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,23 +45,28 @@ class MainViewController: UIViewController {
     }
     
     private func setUpSkyway(){
-        let option:SKWPeerOption = SKWPeerOption()
+        let option: SKWPeerOption = SKWPeerOption.init();
+        let kAPIkey:String = "ff7b67c5-07e0-4fbc-9130-2895edb9480c"
+        let kDomain:String = "nttcomapp"
+        option.key = kAPIkey
+        option.domain = kDomain
         option.debug = SKWDebugLevelEnum(rawValue: 3)!
         peer = SKWPeer(options: option)
         
-        //OFF
-        peer?.on(SKWPeerEventEnum.PEER_EVENT_ERROR,callback:{ (obj) -> Void in
-            if let error:SKWPeerError = obj as? SKWPeerError{
-
+        //ON
+        peer.on(SKWPeerEventEnum.PEER_EVENT_OPEN,callback:{ (obj) -> Void in
+            if let peerId = obj as? String{
+                self.id = peerId
+                DispatchQueue.main.async {
+                    self.getPeerList()
+                }
             }
         })
         
-        //ON
-        peer?.on(SKWPeerEventEnum.PEER_EVENT_OPEN,callback:{ (obj) -> Void in
-            if let peerId = obj as? String{
-                DispatchQueue.main.async {
-
-                }
+        //OFF
+        peer.on(SKWPeerEventEnum.PEER_EVENT_ERROR,callback:{ (obj) -> Void in
+            if let error:SKWPeerError = obj as? SKWPeerError{
+                print(error)
             }
         })
         
@@ -171,7 +175,7 @@ extension MainViewController {
                     self.remoteStream = nil
                     self.mediaConnection = nil
                     self.isEstablished = false
-                    self.targetView.isHidden = true
+//                    self.targetView.isHidden = true
                 }
             }
         })
