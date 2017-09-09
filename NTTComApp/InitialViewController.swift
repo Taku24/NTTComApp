@@ -9,12 +9,16 @@
 import UIKit
 import SkyWay
 
-class InitialViewController: UIViewController {
+class InitialViewController: UIViewController, UITextFieldDelegate {
+    
+    @IBOutlet var roomIDTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         setUpSkyway()
+        
+        roomIDTextField.delegate = self
     }
     
     override func didReceiveMemoryWarning() {
@@ -26,6 +30,11 @@ class InitialViewController: UIViewController {
         let option: SKWPeerOption = SKWPeerOption.init();
         option.key = "ff7b67c5-07e0-4fbc-9130-2895edb9480c"
         option.domain = "nttcomapp"
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
 }
