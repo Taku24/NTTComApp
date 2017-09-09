@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CC4FB3EF1F63A3E6004CB597 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4FB3EE1F63A3E6004CB597 /* InitialViewController.swift */; };
 		CC4FB3F11F63A434004CB597 /* SyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4FB3F01F63A434004CB597 /* SyncViewController.swift */; };
+		CC4FB3F61F63A543004CB597 /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4FB3F51F63A543004CB597 /* SkyWay.framework */; };
 		CC7CA16D1F6390C3008005ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA16C1F6390C3008005ED /* AppDelegate.swift */; };
 		CC7CA16F1F6390C3008005ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA16E1F6390C3008005ED /* MainViewController.swift */; };
 		CC7CA1721F6390C3008005ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7CA1701F6390C3008005ED /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		CC4FB3EE1F63A3E6004CB597 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		CC4FB3F01F63A434004CB597 /* SyncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncViewController.swift; sourceTree = "<group>"; };
+		CC4FB3F51F63A543004CB597 /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkyWay.framework; sourceTree = "<group>"; };
+		CC4FB3F71F63A570004CB597 /* NTTComAppBrigingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTTComAppBrigingHeader.h; sourceTree = "<group>"; };
 		CC7CA1691F6390C3008005ED /* NTTComApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTTComApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7CA16C1F6390C3008005ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7CA16E1F6390C3008005ED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4FB3F61F63A543004CB597 /* SkyWay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC4FB3F41F63A541004CB597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4FB3F51F63A543004CB597 /* SkyWay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC7CA1601F6390C3008005ED = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +97,7 @@
 				CC7CA1801F6390C3008005ED /* NTTComAppTests */,
 				CC7CA18B1F6390C3008005ED /* NTTComAppUITests */,
 				CC7CA16A1F6390C3008005ED /* Products */,
+				CC4FB3F41F63A541004CB597 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +122,7 @@
 				CC7CA1781F6390C3008005ED /* Info.plist */,
 				CC4FB3EE1F63A3E6004CB597 /* InitialViewController.swift */,
 				CC4FB3F01F63A434004CB597 /* SyncViewController.swift */,
+				CC4FB3F71F63A570004CB597 /* NTTComAppBrigingHeader.h */,
 			);
 			path = NTTComApp;
 			sourceTree = "<group>";
@@ -426,10 +440,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZCYDEPGR36;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NTTComApp",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NTTComApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.intern.nttcmoapp.NTTComApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = NTTComApp/NTTComAppBrigingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -439,10 +461,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZCYDEPGR36;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NTTComApp",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NTTComApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.intern.nttcmoapp.NTTComApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = NTTComApp/NTTComAppBrigingHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
