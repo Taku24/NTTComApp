@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import SkyWay
 
 class InitialViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        setUpSkyway()
     }
     
     override func didReceiveMemoryWarning() {
@@ -21,7 +23,9 @@ class InitialViewController: UIViewController {
     }
     
     private func setUpSkyway(){
-        
+        let option: SKWPeerOption = SKWPeerOption.init();
+        option.key = "ff7b67c5-07e0-4fbc-9130-2895edb9480c"
+        option.domain = "nttcomapp"
     }
     
 }
