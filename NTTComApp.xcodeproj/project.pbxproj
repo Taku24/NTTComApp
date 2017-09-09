@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC7CA16D1F6390C3008005ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA16C1F6390C3008005ED /* AppDelegate.swift */; };
+		CC7CA16F1F6390C3008005ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA16E1F6390C3008005ED /* ViewController.swift */; };
+		CC7CA1721F6390C3008005ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7CA1701F6390C3008005ED /* Main.storyboard */; };
+		CC7CA1741F6390C3008005ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7CA1731F6390C3008005ED /* Assets.xcassets */; };
+		CC7CA1771F6390C3008005ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7CA1751F6390C3008005ED /* LaunchScreen.storyboard */; };
+		CC7CA1821F6390C3008005ED /* NTTComAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA1811F6390C3008005ED /* NTTComAppTests.swift */; };
+		CC7CA18D1F6390C3008005ED /* NTTComAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7CA18C1F6390C3008005ED /* NTTComAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC7CA17E1F6390C3008005ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7CA1611F6390C3008005ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7CA1681F6390C3008005ED;
+			remoteInfo = NTTComApp;
+		};
+		CC7CA1891F6390C3008005ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC7CA1611F6390C3008005ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC7CA1681F6390C3008005ED;
+			remoteInfo = NTTComApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC7CA1691F6390C3008005ED /* NTTComApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTTComApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7CA16C1F6390C3008005ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC7CA16E1F6390C3008005ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC7CA1711F6390C3008005ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC7CA1731F6390C3008005ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC7CA1761F6390C3008005ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC7CA1781F6390C3008005ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7CA17D1F6390C3008005ED /* NTTComAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTTComAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7CA1811F6390C3008005ED /* NTTComAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTComAppTests.swift; sourceTree = "<group>"; };
+		CC7CA1831F6390C3008005ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7CA1881F6390C3008005ED /* NTTComAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTTComAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7CA18C1F6390C3008005ED /* NTTComAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTComAppUITests.swift; sourceTree = "<group>"; };
+		CC7CA18E1F6390C3008005ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC7CA1661F6390C3008005ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7CA17A1F6390C3008005ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7CA1851F6390C3008005ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC7CA1601F6390C3008005ED = {
+			isa = PBXGroup;
+			children = (
+				CC7CA16B1F6390C3008005ED /* NTTComApp */,
+				CC7CA1801F6390C3008005ED /* NTTComAppTests */,
+				CC7CA18B1F6390C3008005ED /* NTTComAppUITests */,
+				CC7CA16A1F6390C3008005ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC7CA16A1F6390C3008005ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC7CA1691F6390C3008005ED /* NTTComApp.app */,
+				CC7CA17D1F6390C3008005ED /* NTTComAppTests.xctest */,
+				CC7CA1881F6390C3008005ED /* NTTComAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7CA16B1F6390C3008005ED /* NTTComApp */ = {
+			isa = PBXGroup;
+			children = (
+				CC7CA16C1F6390C3008005ED /* AppDelegate.swift */,
+				CC7CA16E1F6390C3008005ED /* ViewController.swift */,
+				CC7CA1701F6390C3008005ED /* Main.storyboard */,
+				CC7CA1731F6390C3008005ED /* Assets.xcassets */,
+				CC7CA1751F6390C3008005ED /* LaunchScreen.storyboard */,
+				CC7CA1781F6390C3008005ED /* Info.plist */,
+			);
+			path = NTTComApp;
+			sourceTree = "<group>";
+		};
+		CC7CA1801F6390C3008005ED /* NTTComAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7CA1811F6390C3008005ED /* NTTComAppTests.swift */,
+				CC7CA1831F6390C3008005ED /* Info.plist */,
+			);
+			path = NTTComAppTests;
+			sourceTree = "<group>";
+		};
+		CC7CA18B1F6390C3008005ED /* NTTComAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC7CA18C1F6390C3008005ED /* NTTComAppUITests.swift */,
+				CC7CA18E1F6390C3008005ED /* Info.plist */,
+			);
+			path = NTTComAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC7CA1681F6390C3008005ED /* NTTComApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7CA1911F6390C3008005ED /* Build configuration list for PBXNativeTarget "NTTComApp" */;
+			buildPhases = (
+				CC7CA1651F6390C3008005ED /* Sources */,
+				CC7CA1661F6390C3008005ED /* Frameworks */,
+				CC7CA1671F6390C3008005ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTTComApp;
+			productName = NTTComApp;
+			productReference = CC7CA1691F6390C3008005ED /* NTTComApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC7CA17C1F6390C3008005ED /* NTTComAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7CA1941F6390C3008005ED /* Build configuration list for PBXNativeTarget "NTTComAppTests" */;
+			buildPhases = (
+				CC7CA1791F6390C3008005ED /* Sources */,
+				CC7CA17A1F6390C3008005ED /* Frameworks */,
+				CC7CA17B1F6390C3008005ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7CA17F1F6390C3008005ED /* PBXTargetDependency */,
+			);
+			name = NTTComAppTests;
+			productName = NTTComAppTests;
+			productReference = CC7CA17D1F6390C3008005ED /* NTTComAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC7CA1871F6390C3008005ED /* NTTComAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7CA1971F6390C3008005ED /* Build configuration list for PBXNativeTarget "NTTComAppUITests" */;
+			buildPhases = (
+				CC7CA1841F6390C3008005ED /* Sources */,
+				CC7CA1851F6390C3008005ED /* Frameworks */,
+				CC7CA1861F6390C3008005ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC7CA18A1F6390C3008005ED /* PBXTargetDependency */,
+			);
+			name = NTTComAppUITests;
+			productName = NTTComAppUITests;
+			productReference = CC7CA1881F6390C3008005ED /* NTTComAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC7CA1611F6390C3008005ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NttCmmApp;
+				TargetAttributes = {
+					CC7CA1681F6390C3008005ED = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZCYDEPGR36;
+						ProvisioningStyle = Automatic;
+					};
+					CC7CA17C1F6390C3008005ED = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZCYDEPGR36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC7CA1681F6390C3008005ED;
+					};
+					CC7CA1871F6390C3008005ED = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZCYDEPGR36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC7CA1681F6390C3008005ED;
+					};
+				};
+			};
+			buildConfigurationList = CC7CA1641F6390C3008005ED /* Build configuration list for PBXProject "NTTComApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC7CA1601F6390C3008005ED;
+			productRefGroup = CC7CA16A1F6390C3008005ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC7CA1681F6390C3008005ED /* NTTComApp */,
+				CC7CA17C1F6390C3008005ED /* NTTComAppTests */,
+				CC7CA1871F6390C3008005ED /* NTTComAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC7CA1671F6390C3008005ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7CA1771F6390C3008005ED /* LaunchScreen.storyboard in Resources */,
+				CC7CA1741F6390C3008005ED /* Assets.xcassets in Resources */,
+				CC7CA1721F6390C3008005ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7CA17B1F6390C3008005ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7CA1861F6390C3008005ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC7CA1651F6390C3008005ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7CA16F1F6390C3008005ED /* ViewController.swift in Sources */,
+				CC7CA16D1F6390C3008005ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7CA1791F6390C3008005ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7CA1821F6390C3008005ED /* NTTComAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7CA1841F6390C3008005ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7CA18D1F6390C3008005ED /* NTTComAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC7CA17F1F6390C3008005ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7CA1681F6390C3008005ED /* NTTComApp */;
+			targetProxy = CC7CA17E1F6390C3008005ED /* PBXContainerItemProxy */;
+		};
+		CC7CA18A1F6390C3008005ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC7CA1681F6390C3008005ED /* NTTComApp */;
+			targetProxy = CC7CA1891F6390C3008005ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC7CA1701F6390C3008005ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7CA1711F6390C3008005ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC7CA1751F6390C3008005ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC7CA1761F6390C3008005ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC7CA18F1F6390C3008005ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC7CA1901F6390C3008005ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7CA1921F6390C3008005ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZCYDEPGR36;
+				INFOPLIST_FILE = NTTComApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intern.nttcmoapp.NTTComApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC7CA1931F6390C3008005ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZCYDEPGR36;
+				INFOPLIST_FILE = NTTComApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intern.nttcmoapp.NTTComApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CC7CA1951F6390C3008005ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZCYDEPGR36;
+				INFOPLIST_FILE = NTTComAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intern.nttcmoapp.NTTComAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTTComApp.app/NTTComApp";
+			};
+			name = Debug;
+		};
+		CC7CA1961F6390C3008005ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZCYDEPGR36;
+				INFOPLIST_FILE = NTTComAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intern.nttcmoapp.NTTComAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTTComApp.app/NTTComApp";
+			};
+			name = Release;
+		};
+		CC7CA1981F6390C3008005ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZCYDEPGR36;
+				INFOPLIST_FILE = NTTComAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intern.nttcmoapp.NTTComAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NTTComApp;
+			};
+			name = Debug;
+		};
+		CC7CA1991F6390C3008005ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZCYDEPGR36;
+				INFOPLIST_FILE = NTTComAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intern.nttcmoapp.NTTComAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NTTComApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC7CA1641F6390C3008005ED /* Build configuration list for PBXProject "NTTComApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7CA18F1F6390C3008005ED /* Debug */,
+				CC7CA1901F6390C3008005ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7CA1911F6390C3008005ED /* Build configuration list for PBXNativeTarget "NTTComApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7CA1921F6390C3008005ED /* Debug */,
+				CC7CA1931F6390C3008005ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC7CA1941F6390C3008005ED /* Build configuration list for PBXNativeTarget "NTTComAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7CA1951F6390C3008005ED /* Debug */,
+				CC7CA1961F6390C3008005ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC7CA1971F6390C3008005ED /* Build configuration list for PBXNativeTarget "NTTComAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7CA1981F6390C3008005ED /* Debug */,
+				CC7CA1991F6390C3008005ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC7CA1611F6390C3008005ED /* Project object */;
+}
